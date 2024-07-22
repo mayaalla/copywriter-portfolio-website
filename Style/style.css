@@ -1,0 +1,190 @@
+main{
+    display: flex;
+    align-items: center;
+}
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.navbar-brand{
+    font-family: "Nunito", sans-serif !important;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.nav-link{
+    transition: color .3s;
+    position: relative;
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #ff1563!important;
+    font-weight: bold;
+}
+.services-row .col-4 {
+    flex: 1 1 30% !important;
+    max-width: 30% !important;
+    margin-bottom: 20px !important;
+}
+.my-work-row .col-4 {
+    flex: 1 1 30% !important;
+    max-width: 30% !important;
+    margin-bottom: 20px !important;
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ff1563;
+    bottom: 0;
+    left: 0;
+    transition: width .3s;
+}
+.nav-link:hover::before{
+    width: 100%;
+}
+.title{
+    position: relative;
+    color: #fff !important;
+}
+p{
+    color: #fff !important;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ff1563;
+    bottom: 0;
+    left: 0;
+}
+body{
+    background-image: url(../images/bg.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed !important;
+}
+.my-work-col, .input{
+    
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* box-shadow: rgba(4, 217, 255, 0.35) 0px 48px 100px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px inset, rgba(0, 0, 0, 0.2) 0px 50px 100px -20px, rgba(0, 0, 0, 0.35) 0px 30px 60px -30px;
+    
+}
+#message{
+    min-height: 232px !important;
+}
+.input::placeholder{
+    color: #fff !important;
+}
+.input{
+    outline: none !important;
+    color: #fff !important;
+}
+.card{
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+}
+.x{
+    font-size: 28px;
+    background-color: #ff1563 !important;
+    color:rgb(255, 255, 255);
+    border-color: rgba(255, 20, 99, 1);
+    box-shadow: 0 0 10px rgba(255, 20, 99, 1);
+    transition : .3s;
+}
+.in{
+    font-size: 28px;
+    background-color: #ff1563;
+    color:#ffffff;
+    border-color: rgba(255, 20, 99, 1);
+    box-shadow: 0 0 10px rgba(255, 20, 99, 1);
+    transition : .3s;
+}
+.inst{
+    font-size: 28px;
+    background-color: #ff1563 !important;
+    color:#ffffff;
+    border-color: rgba(255, 20, 99, 1);
+    box-shadow: 0 0 10px rgba(255, 20, 99, 1);
+    transition : .3s;
+    
+}
+.images{
+    max-width: 546px;
+    max-height: 364px;
+}
+.email{
+    font-size: 28px;
+    background-color: #ff1563 !important;
+    color:#ffffff;
+    border-color: rgba(255, 20, 99, 1);
+    box-shadow: 0 0 10px rgba(255, 20, 99, 1);
+    transition : .3s;
+}
+.x:hover, .in:hover, .inst:hover, .email:hover{
+    background-color: white !important;
+    color: #ff1563 !important;
+    /* border-color: rgb(255 107 157); */
+    box-shadow: 0 0 25px rgba(255, 20, 99, 1);
+}
+.vmw{
+    background-color: #ff1563 !important;
+    position: relative;
+    transition: .3s;
+}
+.vmw:hover{
+    background-color: white !important;
+    color: #ff1563 !important;
+    box-shadow: 0 0 8px #ffffff;
+}
+
+
+/* media query <992px */
+/* medioa query >580px */
+@media (max-width: 580px){
+    .service-card{
+        margin : 0 16px !important;
+    }
+}
+@media (max-width: 992px){
+    body{
+        background-size: auto 100%;
+    }
+    .personalimg{
+        justify-content: center !important;
+    }
+    .reverse {
+        flex-direction: row-reverse !important;
+      }
+      .nav-item{
+        margin: 0 !important;
+      }
+      .my-work-row .col-4 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        margin: 16px !important;
+    }
+    .ordr2{
+        order: 2 !important;
+    }
+    .ordr1{
+        order: 1 !important;
+    }
+}
+@media (max-width: 1204px){
+    .services-row .col-4 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+}
+.input:focus{
+    border-color: #c0c0c0 !important;
+    box-shadow: 0 0 10px rgb(228, 228, 228);
+}
