@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="Style/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav" class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand fw-bold text-white" href="#main">Eugine <span style="color:#ff1563 !important">Joy</span></a>
+          <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#main">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#my-work">My Work</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main id="main" style="height: calc(100vh - 70px) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-wrap flex-column justify-content-center">
+                <h1 class="display-5 fw-bold text-white">Hey, I'm <span id="im"></span></h1>
+                <p class="mb-4 text-white">Hello! I'm Eugine Joy, a passionate and results-driven copywriter dedicated to helping businesses like yours thrive through powerful and persuasive writing. With a keen eye for detail and a deep understanding of what drives customer engagement, I craft copy that not only informs but also converts. </p>
+                <a href="#my-work" style="width: max-content;" class="btn my-3 vmw text-white fw-bold">View My Work</a>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end personalimg" >
+                <!-- make the best hight and the width of the images  -->
+                <img src="images/personalimg.png" height="380" width="380" alt="hero">
+                    <!-- <img src="images/Design sans titre.png" height="300" alt="hero" class=" images"> -->
+                </div>
+            </div>
+        </div>
+      </main>
+      <section id="services" class="mb-5" >
+        <div class="container mb-4 ">
+            <div class="w-100 d-flex justify-content-center mb-4">
+              <h1 style="width:max-content" class="text-center fw-bold title mb-2 py-2">My Services</h1>
+            </div>
+            <div class="row services-row justify-content-between mb-4 mt-5">
+              
+                <div class="col-4 d-flex justify-content-center flex-column border rounded text-center py-4 service-card">
+                    <i class="fa-solid fa-newspaper" style="color: #ff1563; font-size: 38px;"></i>
+                    <h5 style="color:#ff1563 !important" class="text-center fw-bold mb-3">Email Newsletters</h5>
+                    <p>I create informative and engaging newsletters that resonate with your audience, achieving open rates of 50-70%.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center flex-column border rounded text-center py-4 service-card">
+                  <i class="fa-solid fa-envelope-open-text" style="color: #ff1563; font-size: 38px;"></i>
+                  <h5 style="color:#ff1563 !important" class="text-center fw-bold mb-3">Promo Emails</h5>
+                  <p>Persuasive promotional emails designed to drive sales and increase click rates, with typical click rates of 5-10%.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center flex-column border rounded text-center py-4 service-card">
+                    <i class="fa-solid fa-code-pull-request" style="color: #ff1563; font-size: 38px;"></i>
+                    <h5 style="color:#ff1563 !important" class="text-center fw-bold mb-3">Automated Email Sequences</h5>
+                    <p>Tailored sequences designed to<br>nurture leads andconvert them into loyal customers.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center flex-column border rounded text-center py-4 service-card">
+                    <i class="fa-solid fa-pager" style="color: #ff1563; font-size: 38px;"></i>
+                    <h5 style="color:#ff1563 !important" class="text-center fw-bold mb-3">High-Converting Landing Pages</h5>
+                    <p>I write landing pages optimized for conversions by using compelling headlines, persuasive calls-to-action with rates of 60%.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center flex-column border rounded text-center py-4 service-card">
+                    <i class="fa-solid fa-paper-plane" style="color: #ff1563; font-size: 38px;"></i>
+                    <h5 style="color:#ff1563 !important" class="text-center fw-bold mb-3">Upsell Copywriting</h5>
+                    <p>Compelling upsell pages that integrate seamlessly with main offers, boasting take rates over 40%.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center flex-column border rounded text-center py-4 service-card">
+                    <i class="fa-solid fa-rectangle-ad" style="color: #ff1563; font-size: 38px;"></i>
+                    <h5 style="color:#ff1563 !important" class="text-center fw-bold mb-3">Engaging Social Media Ads</h5>
+                    <p>Ads that reflect your brand voice and drive action,and grow social media presence by over 1,000 followers in six weeks.</p>
+                </div>
+            </div>
+            <div class="w-100 d-flex justify-content-center">
+              <h1 style="width:max-content" class="text-center fw-bold title py-2 mb-2">Who I serve?</h1>
+            </div>
+            <div class="row flex-wrap reverse mt-5 mb-2">
+              <div class="col-lg-6 my-3">
+                <h3 style="color: #ff1563;" class="fw-bold mb-4">Info Product Businesses and Course Creators</h3>
+                <p>I specialize in writing for course creators and info product businesses, including paid communities, monthly membership courses, and other community offers. My copy aims to clearly communicate the benefits of your products, encouraging your audience to invest in your offerings.</p>
+              </div>
+              <div class="col-lg-6 my-3">
+                <img src="images/Course.png" class="img-fluid" alt="">
+              </div>
+              
+            </div>
+            <div class="row flex-wrap flex-row mt-5 mb-2">
+              <div class="ordr2 col-lg-6 my-3">
+                <img src="images/E-commerce.png" class="img-fluid" id="img" alt="">
+              </div>
+              <div class="ordr1 col-lg-6 order-lg-2 my-3 ">
+                <h3 style="color: #ff1563;" class="fw-bold mb-4">E-commerce Stores</h3>
+                <p>E-commerce businesses benefit from my expertise in creating product descriptions, email campaigns, and landing pages that drive conversions. I focus on persuasive and informative copy that enhances the customer journey and increases sales.</p>
+              </div>
+            </div>
+            <div class="row flex-wrap reverse mt-5 mb-2">
+              <div class="col-lg-6 my-3">
+                <h3 style="color: #ff1563;" class="fw-bold mb-4">SaaS Companies</h3>
+                <p>For SaaS companies, I develop targeted copy that explains complex features in a simple, engaging manner. My work includes creating effective onboarding sequences, promotional emails, and web copy that converts visitors into loyal users.</p>
+              </div>
+              <div class="col-lg-6 my-3">
+                <img src="images/SAAS.png" class="img-fluid" id="img" alt="">
+              </div>
+              
+            </div>
+            <div class="row flex-wrap mt-5 mb-2">
+              <div class="ordr2 col-lg-6 my-3">
+                <img src="images/b2b.png" class="img-fluid" id="img" alt="">
+              </div>
+              <div class="ordr1 col-lg-6 my-3">
+                <h3 style="color: #ff1563;" class="fw-bold mb-4">B2B Services</h3>
+                <p>B2B businesses can rely on my copywriting services to generate leads and build strong client relationships. I create case studies, white papers, and email sequences that showcase your expertise and convince potential clients of your value.</p>
+              </div>
+            </div>
+
+        </div>
+      </section>
+      <section id="my-work">
+        <div class="container mt-4">
+          <div class="w-100 d-flex justify-content-center">
+            <h1 style="width:max-content" class="text-center fw-bold title py-2 mb-2">My Work</h1>
+          </div>
+          <div class="row mt-5 my-work-row justify-content-between felx-wrap">
+            <div class="col-4 p-0 my-work-col">
+              <div class="card w-100" id="">
+                <img src="images/emails.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title mb-2 mt-2 fw-bold">Emails</h5>
+                  <a href="#" class="btn text-white vmw fw-bold mt-1">View my work</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-0 my-work-col">
+              <div class="card w-100" id="">
+                <img src="images/landing page.png" class="card-img-top" alt="">
+                <div class="card-body">             
+                  <h5 class="card-title mb-2 mt-2 fw-bold">Landing pages</h5>
+                  <a href="#" class="btn text-white vmw fw-bold mt-1">View my work</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-0 my-work-col">
+              <div class="card w-100" id="card">
+                <img src="images/sma.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title mb-2 mt-2 fw-bold">Social Media Ads</h5>
+                  <a href="#" class="btn text-white vmw fw-bold mt-1">View my work</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container mt-5 mb-5">
+          <div class="w-100 d-flex justify-content-center mb-4">
+            <h1 style="width:max-content" class="text-center fw-bold title py-2 mb-2">Contact Me</h1>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12 text-center">
+              <p class="text-white mb-4">I'm currently accepting new projects and would love to hear about yours. Please take a moment<br> to fill out the form below, and I'll get back to you as soon as possible.</p>
+              <div class="d-flex flex-row justify-content-center gap-3">
+              <a class="btn x d-flex justify-content-center align-items-center" style="width: 54px !important; height: 54px !important; border-radius: 50%;" href='#'><i class="fa-brands fa-x-twitter mx-2"></i></a>
+              <a class="btn in d-flex justify-content-center align-items-center" style="width: 54px !important; height: 54px !important; border-radius: 50%;" href='#'><i class="fa-brands fa-linkedin-in mx-2"></i></a>
+              <a class="btn inst d-flex justify-content-center align-items-center" style="width: 54px !important; height: 54px !important; border-radius: 50%;" href='#'><i class="fa-brands fa-instagram mx-2"></i></a>
+              <a class="btn email d-flex justify-content-center align-items-center" style="width: 54px !important; height: 54px !important; border-radius: 50%;" href='#'><i class="fa-regular fa-envelope"></i></a>
+              </div>
+              
+            </div>
+            <div class="col-lg-6">
+
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6 mb-3">
+              <input type="text" class="input w-100 p-2 " id="name" placeholder="Name" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+              <input type="email" class="input w-100 p-2" id="email" placeholder="Email" required>
+            </div>
+            <div class="col-12 my-3">
+              <input type="text" class="input w-100 p-2" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="col-12 my-3">
+              <textarea name="message" id="message" class="input w-100 p-2" placeholder="Message" required></textarea>
+            </div>
+            <div class="col-12 my-3">
+              <button class="btn fw-bold text-white w-100" style="background-color: #ff1563 !important;">Send Message</button>
+            </div>
+          </div>
+          
+
+        </div>
+      </section>
+      <footer  class="footer bg-dark pt-2">
+        <!-- copyrite -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <p class="text-white">© 2024 Eugine Joy. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
